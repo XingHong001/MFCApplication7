@@ -1,0 +1,29 @@
+﻿// MFCApplication7.idl: MFCApplication7.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(MFCApplication7.tlb)。
+
+[ uuid(38680c82-153b-46cd-a97e-40c93adb7eda), version(1.0) ]
+library MFCApplication7
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMFCApplication7Doc 的主调度接口
+
+	[ uuid(f2e46328-3180-42a8-a877-ab0d39d2ecfb) ]
+	dispinterface IMFCApplication7
+	{
+		properties:
+
+		methods:
+	};
+
+	//  CMFCApplication7Doc 的类信息
+
+	[ uuid(0c314edc-78a9-4369-8b85-39b7606cb63c) ]
+	coclass MFCApplication7
+	{
+		[default] dispinterface IMFCApplication7;
+	};
+};
